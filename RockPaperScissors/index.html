@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 id="h1">Rock Paper Scissors</h1>
+
+    <div class="choices">
+        <button onclick="startGame('rock')">&#x270A</button>
+        <button onclick="startGame('paper')">&#x270B	</button>
+        <button onclick="startGame('scissors')">&#x270C</button>
+    </div>
+
+    <div id="vsSection">
+        <span id="playerDisplay">
+            <div>You</div>
+            <div><img class="image" id="player" src="https://pngimg.com/uploads/fist/fist_PNG3.png"></div> 
+        </span>
+        <span>VS</span>
+        <span id="computerDisplay">
+            <div>Computer</div>
+            <div><img class="image" src="https://pngimg.com/uploads/fist/fist_PNG3.png"></div>
+            
+        </span>
+    </div>
+    
+    <div id="resultDisplay">
+         
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
